@@ -6,7 +6,7 @@ image:
 	@ docker build -t $(IMAGE):$(TAG) .
 
 push:
-	@ docker push $(IMAGE)
+	@ docker push $(IMAGE):$(TAG)
 
 run:
 	@ docker run --rm --name $(CONTAINER) -p 3389:389 -t $(IMAGE):$(TAG)
