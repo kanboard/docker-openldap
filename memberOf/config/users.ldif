@@ -1,0 +1,38 @@
+dn: uid=user,ou=Users,dc=kanboard,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: user
+sn: Lastname
+givenName: Firstname
+cn: Kanboard User
+displayName: Kanboard User
+mail: user@kanboard.local
+userPassword: password
+
+dn: uid=manager,ou=Users,dc=kanboard,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: manager
+sn: Lastname
+givenName: Firstname
+cn: Kanboard Manager
+displayName: Kanboard Manager
+mail: manager@kanboard.local
+userPassword: password
+
+dn: uid=superuser,ou=Users,dc=kanboard,dc=local
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+uid: admin
+sn: Lastname
+givenName: Firstname
+cn: Kanboard Admin
+displayName: Kanboard Admin
+mail: superuser@kanboard.local
+userPassword: password

@@ -1,0 +1,17 @@
+dn: cn=Kanboard Admins,ou=Groups,dc=kanboard,dc=local
+objectClass: posixGroup
+cn: Kanboard Admins
+gidNumber: 5000
+memberUid: superuser
+
+dn: cn=Kanboard Managers,ou=Groups,dc=kanboard,dc=local
+objectClass: posixGroup
+cn: Kanboard Managers
+gidNumber: 5001
+memberUid: manager
+
+dn: cn=Kanboard Users,ou=Groups,dc=kanboard,dc=local
+objectClass: posixGroup
+cn: Kanboard Users
+gidNumber: 5002
+memberUid: user

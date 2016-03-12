@@ -1,0 +1,17 @@
+dn: cn=Kanboard Admins,ou=Groups,dc=kanboard,dc=local
+objectClass: top
+objectClass: groupOfNames
+cn: Kanboard Admins
+member: uid=superuser,ou=Users,dc=kanboard,dc=local
+
+dn: cn=Kanboard Managers,ou=Groups,dc=kanboard,dc=local
+objectClass: top
+objectClass: groupOfNames
+cn: Kanboard Managers
+member: uid=manager,ou=Users,dc=kanboard,dc=local
+
+dn: cn=Kanboard Users,ou=Groups,dc=kanboard,dc=local
+objectClass: top
+objectClass: groupOfNames
+cn: Kanboard Users
+member: uid=user,ou=Users,dc=kanboard,dc=local

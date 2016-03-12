@@ -1,0 +1,44 @@
+dn: uid=user,ou=Users,dc=kanboard,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: user
+sn: Lastname
+givenName: Firstname
+cn: Kanboard User
+displayName: Kanboard User
+uidNumber: 10000
+gidNumber: 8000
+userPassword: password
+homeDirectory: /home/user
+mail: user@kanboard.local
+
+dn: uid=manager,ou=Users,dc=kanboard,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: manager
+sn: Lastname
+givenName: Firstname
+cn: Kanboard Manager
+displayName: Kanboard Manager
+uidNumber: 10001
+gidNumber: 8000
+userPassword: password
+homeDirectory: /home/manager
+mail: manager@kanboard.local
+
+dn: uid=superuser,ou=Users,dc=kanboard,dc=local
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: shadowAccount
+uid: admin
+sn: Lastname
+givenName: Firstname
+cn: Kanboard Admin
+displayName: Kanboard Admin
+uidNumber: 10003
+gidNumber: 8000
+userPassword: password
+homeDirectory: /home/admin
+mail: superuser@kanboard.local
