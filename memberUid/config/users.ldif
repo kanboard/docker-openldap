@@ -32,7 +32,7 @@ dn: uid=superuser,ou=Users,dc=kanboard,dc=local
 objectClass: inetOrgPerson
 objectClass: posixAccount
 objectClass: shadowAccount
-uid: admin
+uid: superuser
 sn: Lastname
 givenName: Firstname
 cn: Kanboard Admin
@@ -40,5 +40,5 @@ displayName: Kanboard Admin
 uidNumber: 10003
 gidNumber: 8000
 userPassword: password
-homeDirectory: /home/admin
+homeDirectory: /home/superuser
 mail: superuser@kanboard.local

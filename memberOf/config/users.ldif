@@ -29,7 +29,7 @@ objectClass: top
 objectClass: person
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
-uid: admin
+uid: superuser
 sn: Lastname
 givenName: Firstname
 cn: Kanboard Admin
